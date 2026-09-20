@@ -1,0 +1,8 @@
+/* Requested visual-only image refinements. */
+.navbar img{width:104px;height:104px}
+.hero-company{font:700 19px/1.1 'DM Sans',sans-serif!important;letter-spacing:3px!important;margin-bottom:20px!important}
+.contact{position:relative;overflow:hidden;background:#f7f4ed}
+.contact-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.22;filter:brightness(1.12) saturate(.78)}
+.contact>*:not(.contact-image){position:relative;z-index:1}
+.contact-logo{width:110px;height:110px;object-fit:contain;background:#fff;padding:5px;border:1px solid #ded6c7;margin-bottom:18px}
+@media(max-width:700px){.navbar img{width:78px;height:78px}.hero-company{font-size:15px!important}.contact-logo{width:88px;height:88px}}

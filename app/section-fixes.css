@@ -1,0 +1,9 @@
+/* Final section-specific image and contact refinements. */
+.journey,.feature.bio{height:auto;min-height:560px;background:#ece7da;color:#103a2c;justify-content:center}
+.journey>img,.journey>.shade,.feature.bio>img,.feature.bio>.shade{display:none}
+.journey .glass,.feature.bio .glass{background:rgba(255,255,255,.70);color:#103a2c;border-color:rgba(16,58,44,.16);box-shadow:0 10px 34px rgba(16,58,44,.10)}
+.journey .timeline b,.feature.bio .eyebrow{color:#a77a35}.feature.bio .glass h2,.feature.bio .glass p{color:#103a2c}
+.journey:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 74px,rgba(169,125,55,.08) 75px),repeating-linear-gradient(0deg,transparent 0 74px,rgba(16,58,44,.04) 75px)}
+.feature.bio:before{content:"BIOSECURITY";font:600 clamp(64px,13vw,190px)/1 'Playfair Display';letter-spacing:-8px;color:rgba(16,58,44,.06);position:absolute;left:3%;bottom:6%}
+.contact{padding-bottom:190px}.contact-logo{position:absolute!important;left:max(7%,24px);right:auto;top:auto;bottom:34px;width:118px;height:118px;z-index:3;box-shadow:0 12px 28px rgba(0,0,0,.16)}
+@media(max-width:700px){.journey,.feature.bio{min-height:500px}.contact{padding-bottom:155px}.contact-logo{width:92px;height:92px;bottom:26px}}

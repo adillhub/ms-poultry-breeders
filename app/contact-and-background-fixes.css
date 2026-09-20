@@ -1,0 +1,9 @@
+/* Contact contrast, logo rendering, and section background corrections. */
+footer img{filter:none!important;object-fit:contain!important;background:#fff!important;padding:5px!important}
+.contact{background:#082f23!important;color:#fff!important}
+.contact-image{opacity:.62!important;filter:brightness(.62) saturate(.8)!important}
+.contact>p,.contact>h2,.contact>a{color:#fff!important;position:relative;z-index:2;text-shadow:0 2px 12px rgba(0,0,0,.55)}
+.contact>div{position:relative;z-index:2;background:rgba(7,45,31,.52);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.18);box-shadow:0 8px 32px rgba(0,0,0,.2);padding:18px}
+.contact .map{color:#e9c983!important}.contact-logo{background:#fff!important;object-fit:contain!important;padding:6px!important}
+.lifecycle>img,.lifecycle>.shade{display:none}.lifecycle{background:linear-gradient(135deg,#f1e7d0,#d8e1d5)!important}.lifecycle:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 15%,rgba(184,141,71,.24),transparent 35%),repeating-linear-gradient(90deg,transparent 0 80px,rgba(7,61,44,.06) 81px)}.lifecycle .glass{background:rgba(255,255,255,.72)!important;color:#103a2c!important;border-color:rgba(16,58,44,.16)!important}.lifecycle .steps span{color:#315d4d}.lifecycle .eyebrow{color:#987035}
+.feature.bio>img,.feature.bio>.shade{display:block}.feature.bio{background:#073e2c!important}.feature.bio>img{object-position:center!important}.feature.bio .glass{background:rgba(7,45,31,.58)!important;color:#fff!important}.feature.bio .glass h2,.feature.bio .glass p{color:#fff!important}
