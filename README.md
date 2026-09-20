@@ -37,8 +37,5 @@ Farm photographs are local assets in `public/assets/farm-photos/`. Update image 
 node "node_modules\.pnpm\next@15.2.4_react-dom@19.0.0_react@19.0.0__react@19.0.0\node_modules\next\dist\bin\next" build
 ```
 
-## Contact details used
 
-- Phone: +91 93430 93720
-- Email: mspoultrybreeders@gmail.com
 
